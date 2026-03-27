@@ -1,0 +1,36 @@
+package edu.infosys.lostFoundLocatorApplication.bean;
+
+public class ChatMessage {
+	
+private String type;//QUESTION OR ANSWER
+private String sender;
+private String content;
+public ChatMessage() {
+    super();
+}
+public ChatMessage(String type, String sender, String content) {
+	super();
+	this.type= type;
+	this.sender= sender;
+	this.content = content;
+}
+public String getType() {
+	return type;
+}
+public void setType(String type) {
+	this.type = type;
+}
+public String getSender() {
+	return sender;
+}
+public void setSender(String sender) {
+	this.sender = sender;
+}
+public String getContent() {
+	return content;
+}
+public void setContent(String content) {
+	this.content = content;
+}
+
+}
